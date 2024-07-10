@@ -63,7 +63,7 @@ header {
 }
 
 .hero {
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
     background-size: cover;
     border-top: 0.4vw dashed #ccc;
     border-bottom: 0.4vw dashed #ccc;
