@@ -89,6 +89,14 @@ header {
     color: crimson;
 }
 
+.herobuttontext:hover {
+    color: crimson;
+}
+
+.form3:hover {
+    color: crimson;
+    cursor: pointer;
+}
 
 
 .hero {
@@ -179,6 +187,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
     align-items: center;
     padding: 1.1805vw 1.6667vw 1.1805vw 1.6667vw;
     flex: none;
@@ -345,7 +355,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;text-decoration: none;
+    align-items: center;
+    text-decoration: none;
     cursor: pointer;
     padding: 0.8333vw 1.3889vw 0.8333vw 1.3889vw;
     flex: none;
@@ -974,16 +985,158 @@ align-items: flex-start;
 padding: 4.44vw 3.33vw 4.44vw 3.33vw;
 background-image: url(assets/handshake.jpg);
 background-size: cover;
-border-radius: 16px;}
+background-position: 0px -10vw;
+border-radius: 1.1111vw;}
+
+.supportbox {
+position: static;
+width: 72.5vw;
+height: 12.8472vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 1vw;
+}
+
+.supportboxtextbox {
+position: static;
+width: 50.6944vw;
+height: 7.2222vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 1.6667vw;
+}
+
+.supportboxtextboxhead {
+position: static;
+width: 20.27778vw;
+height: 2.5vw;
+display: flex;
+margin: 0.2vw;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 2.22vw;
+font-weight: 700;
+line-height: 2.5vw;
+text-align: center;
+}
+
+.supportboxtextboxtext {
+position: static;
+width: 42.08333vw;
+height: 3.6111vw;
+display: flex;
+margin: 0.2vw;
+opacity: 0.7;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 1.111vw;
+font-weight: 400;
+line-height: 1.8056vw;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.form {
+position: static;
+width: 47.5;
+height: 3.9583;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.form2 {
+position: static;
+width: 38.05556vw;
+height: 3.9583vw;
+padding: 1.3194vw 1.3889vw 1.3194vw 1.3889vw;
+margin: 0px 1.1111vw;
+box-sizing: border-box;
+border: 0.3vw solid rgba(13, 19, 33, 0.15);
+border-radius: 0.5556vw;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 1.1111vw;
+font-weight: 400;
+line-height: 1.3194vw;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.form3 {
+position: static;
+width: 8.3333vw;
+height: 3.9583vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 1.1111vw;
+border-radius: 0.5556vw;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 1.3889vw;
+font-weight: 600;
+text-align: center;
+}
 
 footer {
     position: absolute;
     width: 98.7vw;
     height: 10vw;
-    top: 380vw;
+    top: 325vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: rgba(13, 19, 33, 0.03);
 }
+
+.footertext {
+position: static;
+width: 31.6667vw;
+height: 1.59722vw;
+display: flex;
+margin-top: 4.5vw;
+margin-left: 6vw;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 1.38889vw;
+font-weight: 600;
+line-height: 1.597222vw;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footerimage1 {
+    display: flex;
+position: absolute;
+width: 2.55972vw;
+height: 2.4965vw;
+margin-top: 3.5vw;
+margin-left: 91vw;
+}
+
+.footerimage2 {
+    display: flex;
+    position: absolute;
+    width: 2.55972vw;
+    height: 2.4965vw;
+    margin-top: 3.5vw;
+    margin-left: 85vw;
+    }
+
+.footerimage3 {
+    position: absolute;
+    display: flex;
+    width: 2.55972vw;
+    height: 2.4965vw;
+    margin-top: 3.5vw;
+    margin-left: 79vw;
+    }
